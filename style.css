@@ -1,0 +1,243 @@
+:root {
+    --purple: #7d12ff;
+    --black: rgb(20, 20, 20);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    background-color: rgb(54, 87, 41);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+  
+}
+.intro {
+    border: initial;
+    /* background-image: url("Images/intro_background.jpg"); */
+    background-image: url("Images/intro_background.jpg");
+    background-size: cover;
+    color:antiquewhite;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 90vh;
+    font-size: calc(5rem + 5vw);
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black, 0 0 0.1em rgb(29, 8, 75), 0 0 0.1em rgb(13, 61, 43);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+  
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.bio {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    font-family: Helvetica, sans-serif;
+    font-size: calc(2rem + 2vw);
+}
+.bio .title {
+ 
+    font-size: calc(2.5rem + 2.5vw);
+   
+}
+.content{ 
+    width: 90vw;
+ border-style: solid;
+ box-sizing: border-box;
+ padding: 5% 3%;
+ margin-top: 5vh;
+ background-image: url("Images/white-waves.webp");
+ box-shadow: 0.7rem 0.7rem 0.2rem #000000;
+ font-size: calc(1rem + 1vw);
+ /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 0%;
+    background-color: rgb(20, 20, 20);
+    z-index: 1;
+    
+}
+
+.header a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 19px
+
+}
+
+.header a:hover {
+    color: lightgray;
+}
+
+.head-shot {
+    max-width: 75vw;
+    width: 400px;
+    height: auto;
+    border-radius: 45%;
+    border-style: double;
+    border-width: 0.75rem;
+}
+
+div {
+    /* border-style: solid;
+    box-sizing: border-box; */
+    max-width: 100%;
+    
+}
+
+.skills, .project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+
+
+.title {
+    font-size: calc(3em + 3vw);
+}
+
+.skills .title{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.skills div{
+    
+    display: flex;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+}
+
+.skills div div{
+    border-style: solid;
+    box-sizing: border-box;
+    height: 4em;
+    width: 8em;
+    font-size: 2vw;
+    font-size: calc(1rem + 1vw);
+    justify-content: center;
+    background-color: var(--black);
+    color: #7d12ff;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: calc(1rem + 1vw);
+}
+
+.school {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.holy-cross-logo {
+    margin-bottom: 1vh;
+}
+
+.top-logo{
+    height: 20vh;
+    width: auto
+}
+
+.nd-logo{
+    height: 30vh;
+    width: auto;
+}
+
+/* .projects {
+    display: flex;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+
+}
+
+.project-image {
+  position: relative;
+  height: auto;
+  width: 30vw;
+  transition: transform .7s;
+}
+  
+  .project-image:hover {
+    transform: scale(.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+    @media only screen and (max-width: 600px) {
+        .header {
+            height: 6vh;
+        }
+        .skills div div{
+            border-style: solid;
+            box-sizing: border-box;
+            height: 3.5rem;
+            width: 7rem;
+            font-size: calc(1rem + 1vw);
+            justify-content: center;
+            background-color: var(--black);
+            color: #7d12ff;
+        }
+
+        .skills div {
+            width: 99vw;
+            gap: .8vw;
+        }
+        
+        .intro {
+            display: none;
+        }
+        .bio {
+            padding-top: 15vh;
+        }
+      }
+
+      @media screen and (max-height: 1000px) {
+        .header {
+            height: 6vh;
+        }
+        
+      }
