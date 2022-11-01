@@ -161,6 +161,7 @@ div {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: calc(1rem + 1vw);
+    text-align: center;
 }
 
 .school {
@@ -185,6 +186,7 @@ div {
     height: 30vh;
     width: auto;
 }
+
 
 /* .projects {
     display: flex;
