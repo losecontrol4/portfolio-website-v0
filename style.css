@@ -1,13 +1,15 @@
 :root {
-    --purple: #7d12ff;
+    --tertiary: #7d12ff;
     --black: rgb(20, 20, 20);
+    --primary: rgb(84,	113,	161);	
+    --secondary :  #040404;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 body {
-    background-color: rgb(54, 87, 41);
+    background-color: var(--primary);
     margin: 0%;
     padding: 0%;
     display: flex;
@@ -83,7 +85,7 @@ html {
 }
 
 .header a {
-    color: var(--purple);
+    color: var(--tertiary);
     text-decoration: none;
     font-size: 19px
 
@@ -157,7 +159,7 @@ div {
     gap: 3vh;
     justify-content: right;
     align-items: center;
-    background-color: white;
+    background-color: var(--secondary);
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: calc(1rem + 1vw);
