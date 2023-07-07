@@ -20,7 +20,7 @@ body {
 .intro {
     border: initial;
     /* background-image: url("Images/intro_background.jpg"); */
-    background-image: url("Images/intro_background.jpg");
+    background-image: url("Images/intro_background_blue.png");
     background-size: cover;
     color:antiquewhite;
     font-family: Helvetica, sans-serif;
@@ -175,7 +175,9 @@ div {
     
 }
 
-.georgia-tech-log { }
+.georgia-tech-logo { 
+    max-height: 40vh;
+}
 
 .holy-cross-logo {
     margin-bottom: 1vh;
