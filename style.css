@@ -161,7 +161,7 @@ div {
 .education {
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 7vh;
     justify-content: right;
     align-items: center;
     background-color: white;
@@ -177,6 +177,8 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid var(--tertiary);
+    border-radius: 2%;
     
 }
 
