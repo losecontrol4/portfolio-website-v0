@@ -45,7 +45,7 @@ html {
 
 
 .bio {
-    padding-top: 10vh;
+    padding-top: 6vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ html {
  border-style: solid;
  box-sizing: border-box;
  padding: 2% 3%;
- margin-top: 5vh;
+ margin-top: 0vh;
  background-image: url("Images/white-waves.webp");
  box-shadow: 0.7rem 0.7rem 0.2rem #000000;
  font-size: calc(1rem + 1vw);
@@ -154,7 +154,7 @@ div {
     justify-content: center;
     background-color: var(--black);
     color: rgb(111, 33, 213);;
-    text-shadow:  1px 1px 0px #7d12ff
+    text-shadow:  1px 1px 1px #7d12ff
 
 }
 
@@ -243,7 +243,7 @@ div {
             display: none;
         }
         .bio {
-            padding-top: 15vh;
+            padding-top: 8vh;
         }
       }
 
