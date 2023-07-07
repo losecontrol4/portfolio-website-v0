@@ -1,5 +1,6 @@
 :root {
-    --tertiary: #7d12ff;
+    /* --tertiary: #7d12ff; */
+    --tertiary:rgb(99,	98,	178);	
     --black: rgb(20, 20, 20);
     --primary: rgb(84,	113,	161);	
     --secondary :  #040404;
@@ -87,7 +88,9 @@ html {
 .header a {
     color: var(--tertiary);
     text-decoration: none;
-    font-size: 19px
+    font-size: 19px;
+    text-shadow:  1px 1px 0px #7d12ff
+    
 
 }
 
@@ -150,7 +153,9 @@ div {
     font-size: calc(1rem + 1vw);
     justify-content: center;
     background-color: var(--black);
-    color: #7d12ff;
+    color: rgb(111, 33, 213);;
+    text-shadow:  1px 1px 0px #7d12ff
+
 }
 
 .education {
@@ -226,8 +231,7 @@ div {
             width: 7rem;
             font-size: calc(1rem + 1vw);
             justify-content: center;
-            background-color: var(--black);
-            color: #7d12ff;
+        
         }
 
         .skills div {
